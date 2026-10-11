@@ -296,73 +296,71 @@ html[data-theme=dark] :is(.pol small,.bub small){color:#ff9a6e}
 html[data-theme=dark] .bubble{background:#17241e;box-shadow:0 4px 14px #0007}
 html[data-theme=dark] .cform input,html[data-theme=dark] .cform textarea{background:#101c16}
 html[data-theme=dark] .cwrap{border-color:#33483e}
-/* ===== Ink & Terracotta palette ===== */
-:root{--green:#1b1b22;--sun:#e0663a;--coral:#b8431f;--cream:#f6f1e8;--ink:#1b1b22}
-body{background:radial-gradient(circle at 8% 4%,#e0663a26,transparent 36%),radial-gradient(circle at 94% 90%,#1b1b2214,transparent 40%),var(--cream);background-attachment:fixed}
-body::before{background-image:radial-gradient(#1b1b2218 1.4px,transparent 1.4px)}
-body::after{background:radial-gradient(circle,#e0663a40,transparent 70%)}
-.hd-in{box-shadow:0 10px 30px #1b1b224d}
-.hd.sc .hd-in{box-shadow:0 14px 40px #1b1b2280}
-.hlogo i svg{stroke:#1b1b22}
-.hlogo .wm em{background:linear-gradient(90deg,#f6f1e8 35%,#f2a07d);-webkit-background-clip:text;background-clip:text;color:transparent}
-.hd .links a.adm{color:#1b1b22}
-.hero{background:radial-gradient(circle at 30% 20%,#3a3a48,#1b1b22)}
-.shade{background:linear-gradient(90deg,#1b1b22ee 0%,#1b1b2270 55%,transparent),linear-gradient(0deg,#000a,transparent 40%)}
-.pol{box-shadow:0 10px 30px #1b1b2228}
-.pol:hover{box-shadow:0 18px 40px #1b1b2242}
-.pol small{color:#a8431f}
-.lb{background:#0e0e12ee}
-.cta{background:var(--sun);color:#1b1b22}
-.cta .btn{background:#1b1b22;color:#fff}
-.cta .btn:hover{background:#fff;color:#1b1b22}
-.panel,.ad-card,.stat{box-shadow:0 10px 30px #1b1b2218}
-.lcard{box-shadow:0 20px 50px #1b1b2230}
-input,textarea{border-color:#d9d0c1}
-.drop{background:#fbeee6}
-.ad label:not(.drop){background:#fbeee6;border-color:#e0663a55}
-.ad label:not(.drop):has(input:checked){background:#e0663a2b;border-color:var(--sun)}
-.ad label:not(.drop) input[type=checkbox]{background:#c9c0b0}
-.ad label:not(.drop) input[type=checkbox]:checked{background:#1b1b22}
-.ad-top{background:radial-gradient(circle at 88% 15%,#e0663a88,transparent 45%),#1b1b22}
-.bubble{box-shadow:0 4px 14px #1b1b2218}
-.cempty{background:#e0663a1f}
-.cform{background:#e0663a1a;border-color:var(--sun)}
-.cwrap{border-color:#e4dccd}
+/* ===== Midnight & Glory Gold palette ===== */
+:root{--green:#0b1d3a;--sun:#f0b429;--coral:#b8601a;--cream:#fbf6ea;--ink:#14223d}
+body{background:radial-gradient(circle at 8% 4%,#f0b4292e,transparent 36%),radial-gradient(circle at 94% 92%,#0b1d3a16,transparent 42%),var(--cream);background-attachment:fixed}
+body::before{background-image:radial-gradient(#0b1d3a18 1.4px,transparent 1.4px)}
+body::after{background:radial-gradient(circle,#f0b42945,transparent 70%)}
+.strip{background:linear-gradient(90deg,#f0b429,#f7cd5d,#f0b429);color:#0b1d3a}
+.hd-in{box-shadow:0 10px 30px #0b1d3a55}
+.hd.sc .hd-in{box-shadow:0 14px 40px #0b1d3a88}
+.hlogo i svg{stroke:#0b1d3a}
+.hlogo .wm em{background:linear-gradient(90deg,#fbf6ea 35%,#f7cd5d);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hd .links a.adm{color:#0b1d3a}
+.hero{background:radial-gradient(circle at 30% 20%,#1d3d73,#0b1d3a)}
+.shade{background:linear-gradient(90deg,#0b1d3aee 0%,#0b1d3a70 55%,transparent),linear-gradient(0deg,#000a,transparent 40%)}
+.pol{box-shadow:0 10px 30px #0b1d3a26}
+.pol:hover{box-shadow:0 18px 40px #0b1d3a44}
+.pol small{color:#8a5a00}
+.lb{background:#060f20ee}
+.cta{background:linear-gradient(120deg,#f0b429,#f7cd5d);color:#0b1d3a}
+.cta .btn{background:#0b1d3a;color:#fff}
+.cta .btn:hover{background:#fff;color:#0b1d3a}
+.panel,.ad-card,.stat{box-shadow:0 10px 30px #0b1d3a1a}
+.lcard{box-shadow:0 20px 50px #0b1d3a30}
+.stat:nth-child(2){border-color:#4a7fd1}
+.stat:nth-child(3){border-color:#0b1d3a}
+input,textarea{border-color:#d8d2c3}
+.drop{background:#fff6dc}
+.ad label:not(.drop){background:#fff6dc;border-color:#f0b42966}
+.ad label:not(.drop):has(input:checked){background:#f0b4292b;border-color:var(--sun)}
+.ad label:not(.drop) input[type=checkbox]{background:#c9c2ae}
+.ad label:not(.drop) input[type=checkbox]:checked{background:#0b1d3a}
+.ad-top{background:radial-gradient(circle at 88% 15%,#f0b42988,transparent 45%),#0b1d3a}
+.bubble{box-shadow:0 4px 14px #0b1d3a18}
+.cempty{background:#f0b4291f}
+.cform{background:#f0b4291a;border-color:var(--sun)}
+.cwrap{border-color:#e8e0cc}
 .btn.red{background:#a32a2a}
 
 /* Dark mode */
-:root[data-theme=dark]{--cream:#131316;--ink:#f1ece2;--green:#f1ece2}
-html[data-theme=dark] body{background:radial-gradient(circle at 8% 4%,#e0663a22,transparent 36%),var(--cream)}
+:root[data-theme=dark]{--cream:#09111f;--ink:#f4efe2;--green:#f4efe2}
+html[data-theme=dark] body{background:radial-gradient(circle at 8% 4%,#f0b4291f,transparent 36%),radial-gradient(circle at 94% 92%,#1d3d7333,transparent 42%),var(--cream)}
 html[data-theme=dark] body::before{background-image:radial-gradient(#ffffff1a 1.4px,transparent 1.4px)}
-html[data-theme=dark] :is(.lcard,.panel,.ad-card,.stat,.pol,.cm,input,textarea){background:#1d1d23}
-html[data-theme=dark] :is(input,textarea){border-color:#3a3a44;color:var(--ink)}
-html[data-theme=dark] :is(.drop,.ad label:not(.drop)){background:#26262d}
-html[data-theme=dark] .btn{background:#34343f;color:#f1ece2}
-html[data-theme=dark] .btn:hover{background:var(--sun);color:#1b1b22}
-html[data-theme=dark] .btn.sun{background:var(--sun);color:#1b1b22}
+html[data-theme=dark] :is(.lcard,.panel,.ad-card,.stat,.pol,.cm,input,textarea){background:#121e36}
+html[data-theme=dark] :is(input,textarea){border-color:#2c3f66;color:var(--ink)}
+html[data-theme=dark] :is(.drop,.ad label:not(.drop)){background:#182744}
+html[data-theme=dark] .btn{background:#22365f;color:#f4efe2}
+html[data-theme=dark] .btn:hover{background:var(--sun);color:#0b1d3a}
+html[data-theme=dark] .btn.sun{background:var(--sun);color:#0b1d3a}
 html[data-theme=dark] .btn.sun:hover{background:#fff}
 html[data-theme=dark] .btn.red{background:#a32a2a;color:#fff}
-html[data-theme=dark] .btn.ghost{background:#ffffff14;color:#f1ece2}
-html[data-theme=dark] .hd-in{background:#1d1d23;border:1px solid #ffffff1a}
-html[data-theme=dark] .marq{background:#1d1d23}
-@media(max-width:900px){html[data-theme=dark] .hd .links{background:#1d1d23}}
-html[data-theme=dark] .hd .links a.adm{background:#fff;color:#1b1b22}
-html[data-theme=dark] .hd .links a.adm:hover{background:var(--sun);color:#1b1b22}
-html[data-theme=dark] .ad-top{background:radial-gradient(circle at 88% 15%,#e0663a66,transparent 45%),#1d1d23}
-html[data-theme=dark] .hero{background:radial-gradient(circle at 30% 20%,#3a3a48,#1d1d23)}
-html[data-theme=dark] .cta{color:#1b1b22}
-html[data-theme=dark] .cta .btn{background:#1b1b22;color:#fff}
-html[data-theme=dark] :is(.pol small,.bub small){color:#f0916a}
-html[data-theme=dark] .bubble{background:#1d1d23}
-html[data-theme=dark] .cform input,html[data-theme=dark] .cform textarea{background:#131316}
-html[data-theme=dark] .cwrap{border-color:#3a3a44}
-.theme:active{transform:none}
-@media(max-width:900px){
-  .theme,.theme:hover,.theme:focus{transform:none}
-}
-@media(hover:none){
-  .theme:hover{transform:none;background:#ffffff1f}
-}
+html[data-theme=dark] .btn.ghost{background:#ffffff14;color:#f4efe2}
+html[data-theme=dark] .hd-in{background:#101b33;border:1px solid #ffffff1a}
+html[data-theme=dark] .marq{background:#101b33}
+@media(max-width:900px){html[data-theme=dark] .hd .links{background:#101b33}}
+html[data-theme=dark] .hd .links a.adm{background:#fff;color:#0b1d3a}
+html[data-theme=dark] .hd .links a.adm:hover{background:var(--sun);color:#0b1d3a}
+html[data-theme=dark] .ad-top{background:radial-gradient(circle at 88% 15%,#f0b42966,transparent 45%),#101b33}
+html[data-theme=dark] .hero{background:radial-gradient(circle at 30% 20%,#1d3d73,#101b33)}
+html[data-theme=dark] .cta{color:#0b1d3a}
+html[data-theme=dark] .cta .btn{background:#0b1d3a;color:#fff}
+html[data-theme=dark] :is(.pol small,.bub small){color:#f0c75e}
+html[data-theme=dark] .bubble{background:#121e36}
+html[data-theme=dark] .cform input,html[data-theme=dark] .cform textarea{background:#09111f}
+html[data-theme=dark] .cwrap{border-color:#2c3f66}
+
+/* Phone fix for the theme button */
 @media (max-width:900px),(hover:none){
   .hd .links .theme,
   .hd .links .theme:hover,

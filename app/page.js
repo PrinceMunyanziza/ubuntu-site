@@ -5,7 +5,7 @@ import { supabase } from '../lib/supabase';
 
 const pad = (n) => String(n).padStart(2, '0');
 const tilt = [-2, 1.5, -1, 2];
-    const hues = ['#e0663a', '#2f5d50', '#8a6d3b', '#4a4a6a', '#a23e2b', '#3d6b7d'];
+      const hues = ['#1d3d73', '#c8561f', '#2e7d6b', '#8a5a00', '#4a7fd1', '#7a3b8f'];
 const color = (name) => hues[[...name].reduce((a, c) => a + c.charCodeAt(0), 0) % hues.length];
 
 function ago(d) {
