@@ -356,3 +356,10 @@ html[data-theme=dark] :is(.pol small,.bub small){color:#f0916a}
 html[data-theme=dark] .bubble{background:#1d1d23}
 html[data-theme=dark] .cform input,html[data-theme=dark] .cform textarea{background:#131316}
 html[data-theme=dark] .cwrap{border-color:#3a3a44}
+.theme:active{transform:none}
+@media(max-width:900px){
+  .theme,.theme:hover,.theme:focus{transform:none}
+}
+@media(hover:none){
+  .theme:hover{transform:none;background:#ffffff1f}
+}
