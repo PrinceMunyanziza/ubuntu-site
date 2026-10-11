@@ -88,7 +88,7 @@ export default function Home() {
         <div className="shade" />
         <div className="hero-text">
           <p className="eyebrow">UBUNTU</p>
-          <h1>Every act of kindness <em>has a face.</em></h1>
+             <h1>We live for <em>His Glory.</em></h1>
           <a href="#moments" className="btn sun">See our work</a>
         </div>
         {cur && (
