@@ -363,3 +363,9 @@ html[data-theme=dark] .cwrap{border-color:#3a3a44}
 @media(hover:none){
   .theme:hover{transform:none;background:#ffffff1f}
 }
+@media (max-width:900px),(hover:none){
+  .hd .links .theme,
+  .hd .links .theme:hover,
+  .hd .links .theme:focus,
+  .hd .links .theme:active{transform:none!important;transition:background .2s}
+}
