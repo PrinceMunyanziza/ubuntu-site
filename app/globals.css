@@ -367,3 +367,6 @@ html[data-theme=dark] .cwrap{border-color:#2c3f66}
   .hd .links .theme:focus,
   .hd .links .theme:active{transform:none!important;transition:background .2s}
 }
+html{
+  scroll-behaviour: smooth;
+}
